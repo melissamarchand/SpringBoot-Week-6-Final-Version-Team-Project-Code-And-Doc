@@ -12,8 +12,8 @@ import com.promineotech.dealerships.entity.Vehicle;
 @Service
 public class VehicleDao {
     private static final String HOSTNAME = "jdbc:mysql://localhost:3306/dealership?useSSL=false";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "password1";
+    private static final String USERNAME = "";
+    private static final String PASSWORD = "";
 
      public List<Vehicle> getVehicle(Integer vehicleID) {
     	   final String getVehicle = "SELECT * FROM vehicles where vehicleID = ?";
