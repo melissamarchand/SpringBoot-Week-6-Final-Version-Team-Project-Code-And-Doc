@@ -17,8 +17,8 @@ import com.promineotech.dealerships.entity.Transaction;
 @Service
 public class TransactionDao {
     private static final String HOSTNAME = "jdbc:mysql://localhost:3306/dealership?useSSL=false";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "password1";
+    private static final String USERNAME = "";
+    private static final String PASSWORD = "";
 
     
         public List<Transaction> getTransaction(Integer transactionID){
